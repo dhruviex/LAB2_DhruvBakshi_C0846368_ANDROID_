@@ -30,11 +30,13 @@
             android:textSize="35sp"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:layout_gravity="end"
+            android:layout_gravity="start"
             android:onClick="NewList"/>
 
     </androidx.appcompat.widget.Toolbar>
-
+   <SearchView
+        android:layout_height="38dp"
+       android:layout_width="match_parent"/>
     <ListView
         android:id="@+id/dataListView"
         android:layout_width="match_parent"
